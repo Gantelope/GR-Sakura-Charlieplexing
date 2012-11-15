@@ -30,7 +30,7 @@
 
 /*
  * RXduino specific:
- * Timer TMT0 used.
+ * Timer TMR0 used.
  * TMR0_CMIA0 used to call LoLShieldRefresh()
  * ISR Excep_TMR0_CMIA0() must be made extern in intvect.c as it is located in this file.
  * SetPortDir() and SetPortVal() map Arduino digital pin number to corresponding RX63N pin.
